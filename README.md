@@ -15,9 +15,9 @@ For waveform visualization (requires Multisim for functionality).
 Tools like ModelSim or Vivado for simulation and testing.
 
 # Commands To use 
-
-# vlog *.sv
-# vsim -c tb_processor -voptargs=+acc -do "run -all"
-# gtkwave processor.vcd
-
+```
+vlog *.sv
+vsim -c tb_processor -voptargs=+acc -do "run -all"
+gtkwave processor.vcd
+```
 
